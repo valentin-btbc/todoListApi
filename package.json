@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "A first POC project nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentin-btbc/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Valentin-btbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentin-btbc/todoListApi/issues"
+  },
+  "homepage": "https://github.com/valentin-btbc/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  }
+}
